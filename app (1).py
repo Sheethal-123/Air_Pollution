@@ -9,7 +9,7 @@ model = joblib.load('final_model.pkl')  # Make sure this model expects the corre
 
 # Initialize the FastAPI app
 app = FastAPI()
-
+# Sample change to test the deployment
 # Define the input schema for prediction
 class PredictionRequest(BaseModel):
     quality_id: int
